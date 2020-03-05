@@ -49,7 +49,7 @@ class Application(tk.Frame):
                                          self.simType, 
                                          "Single Antenna", 
                                          "Antenna Array", 
-                                         command=self.changeSim)
+                                         command=self.updateControls)
         self.simTypeMenu.grid(row=0,
                               columnspan=2)
         ### DROPDOWN OPTIONS MENU ###
@@ -156,7 +156,10 @@ class Application(tk.Frame):
         self.canvas.draw()
         
     def up3D(self):
-        self.plots.toggle3D()
+        if (self.plots.toggle3D() == True):
+            self.toggleWidgets("off")
+        else:
+            self.toggleWidgets("on")
         self.canvas.draw()
         
     def insDip(self):
@@ -169,7 +172,7 @@ class Application(tk.Frame):
             self.l_sc.grid_forget()
         self.canvas.draw()
         
-    def changeSim(self, value):
+    def updateControls(self, value):
         simType = self.simType.get()
         if(simType == "Single Antenna"):
             self.dp_sc.grid_forget()
@@ -194,6 +197,22 @@ class Application(tk.Frame):
             self.dp_sc.grid(row=3,
                             columnspan=2)
             self.plots.update_plots()
+
+    def toggleWidgets(self,onOff='on'):
+        if(onOff == "off"):
+            self.dp_sc.configure(state='disabled')
+            self.d_sc.configure(state='disabled')
+            self.gt_sc.configure(state='disabled')
+            self.insDip_but.configure(state='disabled')
+            self.l_sc.configure(state='disabled')
+            self.simTypeMenu.configure(state='disabled')
+        else:
+            self.dp_sc.configure(state='normal')
+            self.d_sc.configure(state='normal')
+            self.gt_sc.configure(state='normal')
+            self.insDip_but.configure(state='normal')
+            self.l_sc.configure(state='normal')
+            self.simTypeMenu.configure(state='normal')
             
             
         

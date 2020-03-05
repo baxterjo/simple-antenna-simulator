@@ -12,7 +12,6 @@ from scipy import integrate
 class AntennaProfile():
     def __init__(self, Plots):
         self.eRad2D = self.init2DPlot(Plots.theta2D, Plots.len)
-        self.eRad3D = self.init3DPlot(Plots.theta3D, Plots.phi3D, Plots.len)
         self.direc = self.getDirectivity(Plots)
         self.DtPat = self.initDirPlot()
         
@@ -21,10 +20,6 @@ class AntennaProfile():
 
     def initDirPlot(self):
         return self.direc * self.eRad2D**2
-    
-    def init3DPlot(self, theta3D, phi3D, len):
-        #TODO
-        return 1
 
     def update_2DPlot(self, Plots):
         if(Plots.dipole): 
@@ -45,8 +40,16 @@ class AntennaProfile():
         I = integrate.cumtrapz(FI ** 2 * sin(Plots.d_theta), Plots.d_theta, initial=0)
         return 2 / I[9999]
 
-    def update_3DPlot(self):
-        #TODO
-        return 1
+    def init_3DPlot(self, Plots):
+        if(Plots.dipole): 
+            self.antPat3D = ((cos(Plots.len*pi*cos(Plots.THETA)) - cos(Plots.len*pi))/sin(Plots.THETA))
+            self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))
+        if(Plots.antArray): self.arrFact3D = 1
+        if(Plots.antArray and Plots.dipole):
+            self.rad3D = np.multiply(self.antPat3D, self.arrFact3D)
+        elif(Plots.dipole):
+            self.rad3D = self.antPat3D
+        elif(Plots.antArray):
+            self.rad3D = self.arrFact3D
     
     
