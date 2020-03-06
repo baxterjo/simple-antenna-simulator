@@ -26,14 +26,14 @@ class Plots(Figure):
         self.subplots_adjust(left=0, right=1,top=0.9, bottom=0.05, wspace=0.05, hspace=0.3)
         ### FORMAT PLOTS ###
         self.ax.set_rmin(0)
-        self.ax.set_rmax(1)
         self.ax.set_theta_direction(-1)
         self.ax.set_theta_zero_location("N")
+        self.ax.set_rlabel_position(180)
         self.ax.set_title("Normalized Radiation Pattern (Polar)", pad=10)
         
 
         self.bx.set_xlim(-pi,pi)
-        self.bx.set_ylim(0,1)
+        self.bx.set_ylim(0,1.1)
         self.bx.set_title("Normalized Radiation Pattern (Linear)", pad=10)
         
 
@@ -41,6 +41,7 @@ class Plots(Figure):
         self.cx.set_theta_direction(-1)
         self.cx.set_theta_zero_location("N")
         self.cx.set_rmin(0)
+        self.cx.set_rlabel_position(180)
         self.cx.set_rticks(self.d_ticks)
         self.cx.set_title("Antenna Directivity (Polar)", pad=10)
 
@@ -48,11 +49,10 @@ class Plots(Figure):
         self.dx.set_title("Antenna Directivity (Linear)", pad=10)
 
         ### SET INITIAL ANTENNA PARAMETERS ###
-        self.theta2D = np.linspace(-pi, pi, 1000)
+        self.theta2D = np.linspace(-pi, pi, 10000)
         self.theta3D = np.linspace(0.0000000000001, pi, 40)
         self.phi3D = np.linspace(-pi, pi, 40)
         self.THETA, self.PHI = np.meshgrid(self.theta3D, self.phi3D)
-        self.d_theta = np.linspace(0.00000000001,pi,10000)
         self.numEle = 1
         self.simType = "Single Dipole"
         self.arrType = "NoDip"
@@ -68,9 +68,10 @@ class Plots(Figure):
     def init_2Dplots(self):
         self.ax.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
         self.bx.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
+        self.ax.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
+        self.bx.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
         self.cx.plot(self.theta2D, self.antProf.DtPat,'b')
         self.dx.plot(self.theta2D, self.antProf.DtPat,'b')
-        self.ax.set_rmax(1)
         self.ax.legend(loc='upper right')
         self.cx.set_rmax(int(self.antProf.direc) + 1)
         self.dx.set_ylim(0, int(self.antProf.direc) + 1)
@@ -101,12 +102,13 @@ class Plots(Figure):
             del self.dx.lines[0:len(self.dx.lines)]
             self.ax.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
             self.bx.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
+            self.ax.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
+            self.bx.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
             self.cx.plot(self.theta2D, self.antProf.DtPat,'b')
             self.dx.plot(self.theta2D, self.antProf.DtPat,'b')
             self.ax.legend(loc='upper right')
             self.cx.set_rmax(int(self.antProf.direc) + 1)
             self.dx.set_ylim(0, int(self.antProf.direc) + 1)
-            self.ax.set_rmax(1)
             self.bx.legend(loc='upper right')
     
     def setDPhi(self, newDPhi):

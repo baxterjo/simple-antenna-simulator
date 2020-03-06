@@ -97,12 +97,12 @@ class Application(tk.Frame):
 
         ### NUMBER OF ELEMENTS SLIDER ###
         self.dp_sc = tk.Scale(self.w_frame, 
-                              from_=1, 
+                              from_=2, 
                               to=20, 
                               resolution=1,
                               length=300,
                               orient='horizontal',
-                              tickinterval=5,
+                              tickinterval=2,
                               command=self.upNumEle,
                               label="Number of Elements")
         ### /NUMBER OF ELEMENTS SLIDER ###
@@ -138,11 +138,19 @@ class Application(tk.Frame):
         self.canvas.draw()
         
     def upD(self, slidevalue):
-        self.plots.setD(slidevalue)
+        if (float(slidevalue) == 0):
+            newVal = 0.0001
+        else:
+            newVal = slidevalue
+        self.plots.setD(newVal)
         self.canvas.draw()
     
     def upL(self, slidevalue):
-        self.plots.setL(slidevalue)
+        if (float(slidevalue) == 0):
+            newVal = 0.0001
+        else:
+            newVal = slidevalue
+        self.plots.setL(newVal)
         self.canvas.draw()
         
     def up3D(self):
@@ -158,18 +166,18 @@ class Application(tk.Frame):
             self.l_sc.grid_forget()
             self.plots.setArrType("NoDip")
         elif(arrType == 2):
-            self.l_sc.grid(row=4,
+            self.l_sc.grid(row=5,
                             columnspan=3)
             self.plots.setArrType("ColArray")
         elif(arrType == 3):
-            self.l_sc.grid(row=4,
+            self.l_sc.grid(row=5,
                             columnspan=3)
             self.plots.setArrType("PerpArray")
         self.canvas.draw()
         
     def updateControls(self, value):
         simType = self.simType.get()
-        if(simType == "Single Antenna"):
+        if(simType == "Single Dipole"):
             self.dp_sc.grid_forget()
             self.d_sc.grid_forget()
             self.noDip.grid_forget()
