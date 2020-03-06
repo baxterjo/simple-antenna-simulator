@@ -83,7 +83,7 @@ class Application(tk.Frame):
         
         ### L SLIDER ###
         self.l_sc = tk.Scale(self.w_frame, 
-                              from_=0.01, 
+                              from_=0, 
                               to=1.75, 
                               resolution=0.01,
                               length=300,
