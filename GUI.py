@@ -43,15 +43,17 @@ class Application(tk.Frame):
         
         ### DROPDOWN OPTIONS MENU ###
         self.simType = tk.StringVar()
-        self.simType.set("Single Antenna")
+        self.simType.set("Single Dipole")
         
         self.simTypeMenu = tk.OptionMenu(self.w_frame, 
                                          self.simType, 
-                                         "Single Antenna", 
+                                         "Single Dipole", 
                                          "Antenna Array", 
                                          command=self.updateControls)
         self.simTypeMenu.grid(row=0,
+                              column=1,
                               columnspan=2)
+        tk.Label(self.w_frame, text="Simulation Type").grid(row=0, column=0)
         ### DROPDOWN OPTIONS MENU ###
         
         ### DELTA PHI SLIDER ###
@@ -90,7 +92,7 @@ class Application(tk.Frame):
                               command=self.upL,
                               label="Length of Dipole [l / \u03bb]")
         self.l_sc.grid(row=2,
-                       columnspan=2)
+                       columnspan=3)
         ### /L SLIDER ###
 
         ### NUMBER OF ELEMENTS SLIDER ###
@@ -105,26 +107,13 @@ class Application(tk.Frame):
                               label="Number of Elements")
         ### /NUMBER OF ELEMENTS SLIDER ###
         
-        ### GAMMA TO THETA RELATIONSHIP SLIDER ###
-        self.gt_sc = tk.Scale(self.w_frame, 
-                              from_=0, 
-                              to=90, 
-                              resolution=1,
-                              length=300,
-                              orient='horizontal',
-                              tickinterval=0.25,
-                              command=self.upL,
-                              label="Gamma Theta Relationship [degs]")
-        ### /GAMMA TO THETA RELATIONSHIP SLIDER ###
-        
         ### INSERT DIPOLE CHECKBOX ###
-        self.insDipVar = tk.BooleanVar()
-        self.insDip_but = tk.Checkbutton(self.w_frame,
-                                         text="Insert Dipole",
-                                         command=self.insDip,
-                                         var=self.insDipVar,
-                                         onvalue=True,
-                                         offvalue=False)
+        self.insDipVar = tk.IntVar()
+        self.insDipVar.set(1)
+
+        self.noDip = tk.Radiobutton(self.w_frame,text="No Dipole", variable=self.insDipVar, value=1, command=self.insDip)
+        self.coLin = tk.Radiobutton(self.w_frame, text="Colinear Array", variable=self.insDipVar, value=2, command=self.insDip)
+        self.perp = tk.Radiobutton(self.w_frame, text="Perpendicular Array", variable=self.insDipVar, value=3, command=self.insDip)
         ### /INSERT DIPOLE CHECKBOX ###
         
         ### Toggle 3D Button ###
@@ -132,7 +121,8 @@ class Application(tk.Frame):
                                   text="Show 3D Plot", fg="green",
                                   command=self.up3D)
         self.button3D.grid(row=1,
-                           column=0)
+                            column=1,
+                            columnspan=2)
         
         ### QUIT BUTTON ###
         self.quit = tk.Button(self.master, text="QUIT", fg="red",
@@ -163,13 +153,18 @@ class Application(tk.Frame):
         self.canvas.draw()
         
     def insDip(self):
-        if(self.insDipVar.get() == True):
-            self.plots.dipole = True
-            self.l_sc.grid(row=4,
-                            columnspan=2)
-        else:
-            self.plots.dipole = False
+        arrType = self.insDipVar.get()
+        if(arrType == 1):
             self.l_sc.grid_forget()
+            self.plots.setArrType("NoDip")
+        elif(arrType == 2):
+            self.l_sc.grid(row=4,
+                            columnspan=3)
+            self.plots.setArrType("ColArray")
+        elif(arrType == 3):
+            self.l_sc.grid(row=4,
+                            columnspan=3)
+            self.plots.setArrType("PerpArray")
         self.canvas.draw()
         
     def updateControls(self, value):
@@ -177,40 +172,39 @@ class Application(tk.Frame):
         if(simType == "Single Antenna"):
             self.dp_sc.grid_forget()
             self.d_sc.grid_forget()
-            self.gt_sc.grid_forget()
-            self.insDip_but.deselect()
-            self.insDip_but.invoke()
-            self.insDip_but.grid_forget()
+            self.noDip.grid_forget()
+            self.coLin.grid_forget()
+            self.perp.grid_forget()
+            self.insDipVar.set(1)
             self.l_sc.grid(row=2,
-                           columnspan=2)
-            self.plots.dipole = True
-            self.plots.antArray = False
-            self.plots.update_plots()
+                           columnspan=3)
         elif(simType == "Antenna Array"):
-            self.plots.dipole = False
-            self.plots.antArray = True
             self.l_sc.grid_forget()
-            self.insDip_but.grid(row=1,
-                                 column=1)
             self.d_sc.grid(row=2,
-                           columnspan=2)
+                           columnspan=3)
             self.dp_sc.grid(row=3,
-                            columnspan=2)
-            self.plots.update_plots()
+                            columnspan=3)
+            self.noDip.grid(row=4,
+                            column=0)
+            self.coLin.grid(row=4,
+                            column=1)
+            self.perp.grid(row=4,
+                            column=2)   
+        self.plots.setSimType(simType)
+        self.canvas.draw()
+        
 
     def toggleWidgets(self,onOff='on'):
         if(onOff == "off"):
             self.dp_sc.configure(state='disabled')
             self.d_sc.configure(state='disabled')
-            self.gt_sc.configure(state='disabled')
-            self.insDip_but.configure(state='disabled')
+            self.noDip.configure(state='disabled')
             self.l_sc.configure(state='disabled')
             self.simTypeMenu.configure(state='disabled')
         else:
             self.dp_sc.configure(state='normal')
             self.d_sc.configure(state='normal')
-            self.gt_sc.configure(state='normal')
-            self.insDip_but.configure(state='normal')
+            self.noDip.configure(state='normal')
             self.l_sc.configure(state='normal')
             self.simTypeMenu.configure(state='normal')
             

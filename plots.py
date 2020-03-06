@@ -54,9 +54,8 @@ class Plots(Figure):
         self.THETA, self.PHI = np.meshgrid(self.theta3D, self.phi3D)
         self.d_theta = np.linspace(0.00000000001,pi,10000)
         self.numEle = 1
-        self.gammTheRel = 0
-        self.dipole = True
-        self.antArray = False
+        self.simType = "Single Dipole"
+        self.arrType = "NoDip"
         self.d_phi = float(0)
         self.d = float(0)
         self.len = float(0.0000001)
@@ -122,8 +121,12 @@ class Plots(Figure):
         self.len = float(newLen)
         self.update_plots()
     
-    def toggleDip(self):
-        self.dipole = not self.dipole
+    def setSimType(self, newtype):
+        self.simType = newtype
+        self.update_plots()
+    
+    def setArrType(self, newtype):
+        self.arrType = newtype
         self.update_plots()
     
     def setNumEle(self, newNumEle):

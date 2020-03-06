@@ -22,16 +22,17 @@ class AntennaProfile():
         return self.direc * self.eRad2D**2
 
     def update_2DPlot(self, Plots):
-        if(Plots.dipole): 
+        if(Plots.simType == "Single Dipole"): 
             self.antPat = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
             self.antPat = np.divide(self.antPat, np.amax(self.antPat))
-        if(Plots.antArray): self.arrFact = 1
-        if(Plots.antArray and Plots.dipole):
-            self.eRad2D = np.multiply(self.antPat, self.arrFact)
-        elif(Plots.dipole):
-            self.eRad2D = self.antPat
-        elif(Plots.antArray):
-            self.eRad2D = self.arrFact
+        elif(Plots.simType == "Antenna Array"): 
+            self.arrFact = np.ones(Plots.theta2D.shape()[0])
+            if(Plots.arrType == "NoDip"):
+                self.eRad2D = self.arrFact
+            elif(Plots.dipole):
+                self.eRad2D = self.antPat
+            elif(Plots.antArray):
+                self.eRad2D = self.arrFact
         self.direc = self.getDirectivity(Plots)
         self.DtPat = self.direc * self.eRad2D**2
 
