@@ -30,8 +30,9 @@ class AntennaProfile():
             self.hRad2D = np.ones(Plots.theta2D.shape[0])
         elif(Plots.simType == "Antenna Array"): 
             if(Plots.arrType == "NoDip"):
-                #TODO:Normalized array factor alone. In the case of no dipole, we will just use eRad2D as a placeholder for the array factor. Since there is technically no e or h planes when there are no dipoles.
-                self.arrFact = np.ones(Plots.theta2D.shape[0]) #TODO: This is a placeholder equation for array factor to test the GUI
+                sigma = np.add (2 * pi * Plots.d * cos(Plots.theta2D), Plots.d_phi)
+                N = Plots.numEle
+                self.arrFact = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
                 self.eRad2D = self.arrFact
             elif(Plots.arrType == "ColArray"):
                 self.antPat = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))

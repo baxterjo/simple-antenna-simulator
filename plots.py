@@ -53,11 +53,11 @@ class Plots(Figure):
         self.theta3D = np.linspace(0.0000000000001, pi, 40)
         self.phi3D = np.linspace(-pi, pi, 40)
         self.THETA, self.PHI = np.meshgrid(self.theta3D, self.phi3D)
-        self.numEle = 1
+        self.numEle = 2
         self.simType = "Single Dipole"
         self.arrType = "NoDip"
         self.d_phi = float(0)
-        self.d = float(0)
+        self.d = float(0.0000001)
         self.len = float(0.0000001)
         self.plot3D = False
         self.antProf = ant.AntennaProfile(self)
@@ -117,6 +117,8 @@ class Plots(Figure):
     
     def setD(self, newD):
         self.d = float(newD)
+        if(self.d == 0):
+            self.d = 0.0001
         self.update_plots()
     
     def setL(self, newLen):
@@ -132,7 +134,7 @@ class Plots(Figure):
         self.update_plots()
     
     def setNumEle(self, newNumEle):
-        self.numEle = newNumEle
+        self.numEle = int(newNumEle)
         self.update_plots()
         
     def toggle3D(self):
