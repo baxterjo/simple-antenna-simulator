@@ -22,11 +22,10 @@ class AntennaProfile():
 
     def initDirPlot(self):
         return self.direc * self.eRad2D**2
-
+ 
     def update_2DPlot(self, Plots):
         if(Plots.simType == "Single Dipole"): 
             self.eRad2D = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
-            self.eRad2D = np.divide(self.eRad2D, np.amax(self.eRad2D))
             self.hRad2D = np.ones(Plots.theta2D.shape[0])
         elif(Plots.simType == "Antenna Array"): 
             if(Plots.arrType == "NoDip"):
@@ -35,21 +34,25 @@ class AntennaProfile():
                 self.arrFact = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
                 self.eRad2D = self.arrFact
             elif(Plots.arrType == "ColArray"):
+                self.gamma = Plots.theta2D
                 self.antPat = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
                 self.antPat = np.divide(self.antPat, np.amax(self.antPat))
-                self.arrFact = np.ones(Plots.theta2D.shape[0]) #TODO: This is a placeholder equation for array factor to test the GUI
-                #TODO: Normalized colinear array factor. In this case the h plane radiation pattern will just be a unit circle due to the antennas and array axis lining up.
+                sigma = np.add (2 * pi * Plots.d * cos(self.gamma), Plots.d_phi)
+                N = Plots.numEle
+                self.arrFact = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
                 self.eRad2D = np.multiply(self.antPat, self.arrFact)
                 self.hRad2D = np.ones(Plots.theta2D.shape[0])
             elif(Plots.arrType == "PerpArray"):
-                gamma = Plots.theta2D + (pi/2) #TODO: Check this
-                self.antPat = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
+                self.gamma = Plots.theta2D
+                sigma = np.add (2 * pi * Plots.d * cos(self.gamma), Plots.d_phi)
+                N = Plots.numEle
+                self.arrFact = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
+                self.antPat = abs(((cos(Plots.len*pi*cos(Plots.theta2D - pi / 2)) - cos(Plots.len*pi))/sin(Plots.theta2D - pi / 2)))
                 self.antPat = np.divide(self.antPat, np.amax(self.antPat))
-                self.arrFact = np.ones(Plots.theta2D.shape[0]) #TODO: This is a placeholder equation for array factor to test the GUI
-                #TODO: Normalized perpendicular array, the multiply function below assumes that gamma, theta association has already been accounted for. And gamma has been solved in terms of theta. And the hplane pattern will be the array factor.
                 self.eRad2D = np.multiply(self.antPat, self.arrFact)
-                self.hrad2D = self.arrFact
-
+                self.hRad2D = self.arrFact
+        self.hRad2D = np.divide(self.hRad2D, np.max(self.hRad2D))
+        self.eRad2D = np.divide(self.eRad2D, np.amax(self.eRad2D))
         self.direc = self.getDirectivity(Plots)
         self.DtPat = self.direc * self.eRad2D**2
 

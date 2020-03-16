@@ -26,8 +26,6 @@ class Plots(Figure):
         self.subplots_adjust(left=0, right=1,top=0.9, bottom=0.05, wspace=0.05, hspace=0.3)
         ### FORMAT PLOTS ###
         self.ax.set_rmin(0)
-        self.ax.set_theta_direction(-1)
-        self.ax.set_theta_zero_location("N")
         self.ax.set_rlabel_position(180)
         self.ax.set_title("Normalized Radiation Pattern (Polar)", pad=10)
         
@@ -38,8 +36,6 @@ class Plots(Figure):
         
 
         self.d_ticks = np.linspace(0, 10, 21)
-        self.cx.set_theta_direction(-1)
-        self.cx.set_theta_zero_location("N")
         self.cx.set_rmin(0)
         self.cx.set_rlabel_position(180)
         self.cx.set_rticks(self.d_ticks)
@@ -100,19 +96,44 @@ class Plots(Figure):
             del self.bx.lines[0:len(self.bx.lines)]
             del self.cx.lines[0:len(self.cx.lines)]
             del self.dx.lines[0:len(self.dx.lines)]
-            self.ax.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
-            self.bx.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
-            self.ax.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
-            self.bx.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
-            self.cx.plot(self.theta2D, self.antProf.DtPat,'b')
-            self.dx.plot(self.theta2D, self.antProf.DtPat,'b')
+            if(self.simType == "Single Dipole"):
+                self.ax.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
+                self.bx.plot(self.theta2D, self.antProf.eRad2D,'b', label="E-Plane")
+                self.ax.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
+                self.bx.plot(self.theta2D, self.antProf.hRad2D,'g', label="H-Plane")
+                self.cx.plot(self.theta2D, self.antProf.DtPat,'b')
+                self.dx.plot(self.theta2D, self.antProf.DtPat,'b')
+                self.ax.set_theta_direction(-1)
+                self.ax.set_theta_zero_location("N")
+                self.cx.set_theta_direction(-1)
+                self.cx.set_theta_zero_location("N")
+            elif(self.simType == "Antenna Array" and self.arrType == "NoDip"):  
+                self.ax.plot(self.theta2D, self.antProf.eRad2D,'b', label="Antenna Factor")
+                self.bx.plot(self.theta2D, self.antProf.eRad2D,'b', label="Antenna Factor")
+                self.cx.plot(self.theta2D, self.antProf.DtPat,'b')
+                self.dx.plot(self.theta2D, self.antProf.DtPat,'b')
+                self.ax.set_theta_direction(1)
+                self.ax.set_theta_zero_location("E")
+                self.cx.set_theta_direction(1)
+                self.cx.set_theta_zero_location("E")
+            elif(self.simType == "Antenna Array"):
+                self.ax.plot(self.antProf.gamma, self.antProf.eRad2D,'b', label="E-Plane")
+                self.bx.plot(self.antProf.gamma, self.antProf.eRad2D,'b', label="E-Plane")
+                self.ax.plot(self.antProf.gamma, self.antProf.hRad2D,'g', label="H-Plane")
+                self.bx.plot(self.antProf.gamma, self.antProf.hRad2D,'g', label="H-Plane")
+                self.cx.plot(self.antProf.gamma, self.antProf.DtPat,'b')
+                self.dx.plot(self.antProf.gamma, self.antProf.DtPat,'b')
+                self.ax.set_theta_direction(1)
+                self.ax.set_theta_zero_location("E")
+                self.cx.set_theta_direction(1)
+                self.cx.set_theta_zero_location("E")
             self.ax.legend(loc='upper right')
             self.cx.set_rmax(int(self.antProf.direc) + 1)
             self.dx.set_ylim(0, int(self.antProf.direc) + 1)
             self.bx.legend(loc='upper right')
     
     def setDPhi(self, newDPhi):
-        self.d_phi = float(newDPhi)
+        self.d_phi = np.radians(int(newDPhi))
         self.update_plots()
     
     def setD(self, newD):

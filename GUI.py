@@ -11,6 +11,8 @@ Authors:
 """
 
 import tkinter as tk
+import matplotlib
+matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import (
     FigureCanvasTkAgg, NavigationToolbar2Tk)
 # Implement the default Matplotlib key bindings.
@@ -58,14 +60,14 @@ class Application(tk.Frame):
         
         ### DELTA PHI SLIDER ###
         self.dp_sc = tk.Scale(self.w_frame, 
-                              from_=0, 
-                              to=2, 
-                              resolution=0.01,
+                              from_=-180, 
+                              to=180, 
+                              resolution=10,
                               length=300,
                               orient='horizontal',
-                              tickinterval=0.25,
+                              tickinterval=20,
                               command=self.upDPhi,
-                              label="Excitation Phasing [\u0394\u03c6 / \u03bb]")
+                              label="Excitation Phasing [deg]")
         ### /DELTA PHI SLIDER ###
         
         
@@ -96,7 +98,7 @@ class Application(tk.Frame):
         ### /L SLIDER ###
 
         ### NUMBER OF ELEMENTS SLIDER ###
-        self.dp_sc = tk.Scale(self.w_frame, 
+        self.ne_sc = tk.Scale(self.w_frame, 
                               from_=2, 
                               to=20, 
                               resolution=1,
@@ -166,11 +168,11 @@ class Application(tk.Frame):
             self.l_sc.grid_forget()
             self.plots.setArrType("NoDip")
         elif(arrType == 2):
-            self.l_sc.grid(row=5,
+            self.l_sc.grid(row=6,
                             columnspan=3)
             self.plots.setArrType("ColArray")
         elif(arrType == 3):
-            self.l_sc.grid(row=5,
+            self.l_sc.grid(row=6,
                             columnspan=3)
             self.plots.setArrType("PerpArray")
         self.canvas.draw()
@@ -180,6 +182,7 @@ class Application(tk.Frame):
         if(simType == "Single Dipole"):
             self.dp_sc.grid_forget()
             self.d_sc.grid_forget()
+            self.ne_sc.grid_forget()
             self.noDip.grid_forget()
             self.coLin.grid_forget()
             self.perp.grid_forget()
@@ -192,11 +195,13 @@ class Application(tk.Frame):
                            columnspan=3)
             self.dp_sc.grid(row=3,
                             columnspan=3)
-            self.noDip.grid(row=4,
+            self.ne_sc.grid(row=4,
+                            columnspan=3)
+            self.noDip.grid(row=5,
                             column=0)
-            self.coLin.grid(row=4,
+            self.coLin.grid(row=5,
                             column=1)
-            self.perp.grid(row=4,
+            self.perp.grid(row=5,
                             column=2)   
         self.plots.setSimType(simType)
         self.canvas.draw()
