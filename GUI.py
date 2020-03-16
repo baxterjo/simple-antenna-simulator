@@ -28,8 +28,8 @@ class Application(tk.Frame):
         self.pack()
         self.create_frames()
         self.create_widgets()
-        
-        
+
+
     def create_frames(self):
         self.p_frame = tk.Frame(self.master)
         self.p_frame.pack(side = 'left')
@@ -39,29 +39,29 @@ class Application(tk.Frame):
         self.canvas = FigureCanvasTkAgg(self.plots, master=self.p_frame)
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
-       
+
 
     def create_widgets(self):
-        
+
         ### DROPDOWN OPTIONS MENU ###
         self.simType = tk.StringVar()
         self.simType.set("Single Dipole")
-        
-        self.simTypeMenu = tk.OptionMenu(self.w_frame, 
-                                         self.simType, 
-                                         "Single Dipole", 
-                                         "Antenna Array", 
+
+        self.simTypeMenu = tk.OptionMenu(self.w_frame,
+                                         self.simType,
+                                         "Single Dipole",
+                                         "Antenna Array",
                                          command=self.updateControls)
         self.simTypeMenu.grid(row=0,
                               column=1,
                               columnspan=2)
         tk.Label(self.w_frame, text="Simulation Type").grid(row=0, column=0)
         ### DROPDOWN OPTIONS MENU ###
-        
+
         ### DELTA PHI SLIDER ###
-        self.dp_sc = tk.Scale(self.w_frame, 
-                              from_=-180, 
-                              to=180, 
+        self.dp_sc = tk.Scale(self.w_frame,
+                              from_=-180,
+                              to=180,
                               resolution=10,
                               length=300,
                               orient='horizontal',
@@ -69,12 +69,12 @@ class Application(tk.Frame):
                               command=self.upDPhi,
                               label="Excitation Phasing [deg]")
         ### /DELTA PHI SLIDER ###
-        
-        
+
+
         ### D SLIDER ###
-        self.d_sc = tk.Scale(self.w_frame, 
-                              from_=0, 
-                              to=2, 
+        self.d_sc = tk.Scale(self.w_frame,
+                              from_=0,
+                              to=2,
                               resolution=0.01,
                               length=300,
                               orient='horizontal',
@@ -82,11 +82,11 @@ class Application(tk.Frame):
                               command=self.upD,
                               label="Distance Between Elements [d / \u03bb]")
         ### /D SLIDER ###
-        
+
         ### L SLIDER ###
-        self.l_sc = tk.Scale(self.w_frame, 
-                              from_=0, 
-                              to=1.75, 
+        self.l_sc = tk.Scale(self.w_frame,
+                              from_=0,
+                              to=1.75,
                               resolution=0.01,
                               length=300,
                               orient='horizontal',
@@ -98,9 +98,9 @@ class Application(tk.Frame):
         ### /L SLIDER ###
 
         ### NUMBER OF ELEMENTS SLIDER ###
-        self.ne_sc = tk.Scale(self.w_frame, 
-                              from_=2, 
-                              to=20, 
+        self.ne_sc = tk.Scale(self.w_frame,
+                              from_=2,
+                              to=20,
                               resolution=1,
                               length=300,
                               orient='horizontal',
@@ -108,7 +108,7 @@ class Application(tk.Frame):
                               command=self.upNumEle,
                               label="Number of Elements")
         ### /NUMBER OF ELEMENTS SLIDER ###
-        
+
         ### INSERT DIPOLE CHECKBOX ###
         self.insDipVar = tk.IntVar()
         self.insDipVar.set(1)
@@ -117,15 +117,15 @@ class Application(tk.Frame):
         self.coLin = tk.Radiobutton(self.w_frame, text="Colinear Array", variable=self.insDipVar, value=2, command=self.insDip)
         self.perp = tk.Radiobutton(self.w_frame, text="Perpendicular Array", variable=self.insDipVar, value=3, command=self.insDip)
         ### /INSERT DIPOLE CHECKBOX ###
-        
+
         ### Toggle 3D Button ###
-        self.button3D = tk.Button(self.w_frame, 
+        self.button3D = tk.Button(self.w_frame,
                                   text="Show 3D Plot", fg="green",
                                   command=self.up3D)
         self.button3D.grid(row=1,
                             column=1,
                             columnspan=2)
-        
+
         ### QUIT BUTTON ###
         self.quit = tk.Button(self.master, text="QUIT", fg="red",
                               command=self.master.destroy)
@@ -138,7 +138,7 @@ class Application(tk.Frame):
     def upDPhi(self, slidevalue):
         self.plots.setDPhi(slidevalue)
         self.canvas.draw()
-        
+
     def upD(self, slidevalue):
         if (float(slidevalue) == 0):
             newVal = 0.0001
@@ -146,7 +146,7 @@ class Application(tk.Frame):
             newVal = slidevalue
         self.plots.setD(newVal)
         self.canvas.draw()
-    
+
     def upL(self, slidevalue):
         if (float(slidevalue) == 0):
             newVal = 0.0001
@@ -154,14 +154,14 @@ class Application(tk.Frame):
             newVal = slidevalue
         self.plots.setL(newVal)
         self.canvas.draw()
-        
+
     def up3D(self):
         if (self.plots.toggle3D() == True):
             self.toggleWidgets("off")
         else:
             self.toggleWidgets("on")
         self.canvas.draw()
-        
+
     def insDip(self):
         arrType = self.insDipVar.get()
         if(arrType == 1):
@@ -176,7 +176,7 @@ class Application(tk.Frame):
                             columnspan=3)
             self.plots.setArrType("PerpArray")
         self.canvas.draw()
-        
+
     def updateControls(self, value):
         simType = self.simType.get()
         if(simType == "Single Dipole"):
@@ -202,10 +202,10 @@ class Application(tk.Frame):
             self.coLin.grid(row=5,
                             column=1)
             self.perp.grid(row=5,
-                            column=2)   
+                            column=2)
         self.plots.setSimType(simType)
         self.canvas.draw()
-        
+
 
     def toggleWidgets(self,onOff='on'):
         if(onOff == "off"):
@@ -220,9 +220,9 @@ class Application(tk.Frame):
             self.noDip.configure(state='normal')
             self.l_sc.configure(state='normal')
             self.simTypeMenu.configure(state='normal')
-            
-            
-        
+
+
+
 
 ### Constuct Figures ###
 

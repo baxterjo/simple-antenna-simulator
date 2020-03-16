@@ -14,7 +14,7 @@ class AntennaProfile():
         self.init2DPlot(Plots)
         self.direc = self.getDirectivity(Plots)
         self.DtPat = self.initDirPlot()
-        
+
     def init2DPlot(self, Plots):
         self.eRad2D = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
         self.eRad2D = np.divide(self.eRad2D, np.amax(self.eRad2D))
@@ -22,12 +22,12 @@ class AntennaProfile():
 
     def initDirPlot(self):
         return self.direc * self.eRad2D**2
- 
+
     def update_2DPlot(self, Plots):
-        if(Plots.simType == "Single Dipole"): 
+        if(Plots.simType == "Single Dipole"):
             self.eRad2D = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
             self.hRad2D = np.ones(Plots.theta2D.shape[0])
-        elif(Plots.simType == "Antenna Array"): 
+        elif(Plots.simType == "Antenna Array"):
             if(Plots.arrType == "NoDip"):
                 sigma = np.add (2 * pi * Plots.d * cos(Plots.theta2D), Plots.d_phi)
                 N = Plots.numEle
@@ -61,28 +61,33 @@ class AntennaProfile():
         return round((2 / I[len(I)-1]), 2)
 
     def init_3DPlot(self, Plots):
-        if(Plots.simType == "Single Dipole"): 
+        if(Plots.simType == "Single Dipole"):
             self.antPat3D = ((cos(Plots.len*pi*cos(Plots.THETA)) - cos(Plots.len*pi))/sin(Plots.THETA))
             self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))
             self.rad3D = self.antPat3D
-        elif(Plots.simType == "Antenna Array"): 
+        elif(Plots.simType == "Antenna Array"):
             if(Plots.arrType == "NoDip"):
                 sigma = np.add (2 * pi * Plots.d * cos(Plots.gamma3D), Plots.d_phi)
                 N = Plots.numEle
                 self.arrFact3D = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
                 self.rad3D = np.divide(self.arrFact3D,np.max(self.arrFact3D))
             elif(Plots.arrType == "ColArray"):
-                self.antPat3D = ((cos(Plots.len*pi*cos(Plots.THETA)) - cos(Plots.len*pi))/sin(Plots.THETA))
+
+                sigma = np.add (2 * pi * Plots.d * cos(Plots.gamma3D), Plots.d_phi)
+                N = Plots.numEle
+                self.arrFact3D = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
+
+                self.antPat3D = ((cos(Plots.len*pi*cos(Plots.gamma3D)) - cos(Plots.len*pi))/sin(Plots.gamma3D))
                 self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))
-                #TODO: Normalized 3D Plot for colinear array.
-                self.arrFact3D = np.ones(Plots.THETA.shape) #TODO: A placeholder function for array factor equation for testing.
+
                 self.rad3D = np.multiply(self.antPat3D, self.arrFact3D)
             elif(Plots.arrType == "PerpArray"):
-                #TODO: GAMMA = f(THETA, PHI)
-                self.antPat3D = ((cos(Plots.len*pi*cos(Plots.THETA)) - cos(Plots.len*pi))/sin(Plots.THETA))
+
+                sigma = np.add (2 * pi * Plots.d * cos(Plots.gamma3D), Plots.d_phi)
+                N = Plots.numEle
+                self.arrFact3D = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
+
+                self.antPat3D = ((cos(Plots.len*pi*cos(Plots.gamma3D)) - cos(Plots.len*pi))/sin(Plots.gamma3D))
                 self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))
-                self.arrFact3D = np.ones(Plots.THETA.shape) #TODO: A placeholder function for array factor equation for testing.
-                #TODO: Normalized 3D Plot for colinear array. As with the 2D function, the multiplication function below assumes GAMMA(THETA, PHI) relationship has already been resolved.
+
                 self.rad3D = np.multiply(self.antPat3D, self.arrFact3D)
-    
-    
