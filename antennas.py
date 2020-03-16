@@ -67,9 +67,10 @@ class AntennaProfile():
             self.rad3D = self.antPat3D
         elif(Plots.simType == "Antenna Array"): 
             if(Plots.arrType == "NoDip"):
-                #TODO: Normalized array factor alone.
-                self.arrFact3D = np.ones(Plots.THETA.shape) #TODO: A placeholder function for array factor equation for testing.
-                self.rad3D = self.arrFact3D
+                sigma = np.add (2 * pi * Plots.d * cos(Plots.gamma3D), Plots.d_phi)
+                N = Plots.numEle
+                self.arrFact3D = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
+                self.rad3D = np.divide(self.arrFact3D,np.max(self.arrFact3D))
             elif(Plots.arrType == "ColArray"):
                 self.antPat3D = ((cos(Plots.len*pi*cos(Plots.THETA)) - cos(Plots.len*pi))/sin(Plots.THETA))
                 self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))

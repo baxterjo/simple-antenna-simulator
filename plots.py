@@ -35,7 +35,7 @@ class Plots(Figure):
         self.bx.set_title("Normalized Radiation Pattern (Linear)", pad=10)
         
 
-        self.d_ticks = np.linspace(0, 10, 21)
+        self.d_ticks = np.linspace(0, 30, 31)
         self.cx.set_rmin(0)
         self.cx.set_rlabel_position(180)
         self.cx.set_rticks(self.d_ticks)
@@ -46,9 +46,6 @@ class Plots(Figure):
 
         ### SET INITIAL ANTENNA PARAMETERS ###
         self.theta2D = np.linspace(-pi, pi, 10000)
-        self.theta3D = np.linspace(0.0000000000001, pi, 40)
-        self.phi3D = np.linspace(-pi, pi, 40)
-        self.THETA, self.PHI = np.meshgrid(self.theta3D, self.phi3D)
         self.numEle = 2
         self.simType = "Single Dipole"
         self.arrType = "NoDip"
@@ -74,12 +71,21 @@ class Plots(Figure):
         self.bx.legend(loc='upper right')
     
     def init_3Dplot(self):
+
+        self.theta3D = np.linspace(0.0000000000001, pi, 40 + self.numEle * 10)
+        self.phi3D = np.linspace(-pi, pi, 40 + self.numEle * 10)
+        self.THETA, self.PHI = np.meshgrid(self.theta3D, self.phi3D)
+        self.gamma3D = np.arccos(np.sin(self.PHI)*np.sin(self.THETA))
+
         self.antProf.init_3DPlot(self)
         self.X = self.antProf.rad3D * np.sin(self.THETA) * np.cos(self.PHI)
         self.Y = self.antProf.rad3D * np.sin(self.THETA) * np.sin(self.PHI)
         self.Z = self.antProf.rad3D * np.cos(self.THETA)
         self.ex.plot_surface(self.X, self.Y, self.Z, rstride=1, cstride=1, cmap=plt.get_cmap('jet'),
         linewidth=0, antialiased=False, alpha=0.5)
+        self.ex.set_xlim(-1,1)
+        self.ex.set_ylim(-1,1)
+        self.ex.set_zlim(-1,1)
 
     def update_plots(self):
         if(self.plot3D):
