@@ -32,7 +32,7 @@ class AntennaProfile():
                 sigma = np.add (2 * pi * Plots.d * cos(Plots.theta2D), Plots.d_phi)
                 N = Plots.numEle
                 self.arrFact = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
-                self.eRad2D = self.arrFact
+                self.eRad2D = np.divide(self.arrFact, np.max(self.arrFact))
             elif(Plots.arrType == "ColArray"):
                 self.gamma = Plots.theta2D
                 self.antPat = abs(((cos(Plots.len*pi*cos(Plots.theta2D)) - cos(Plots.len*pi))/sin(Plots.theta2D)))
@@ -81,13 +81,15 @@ class AntennaProfile():
                 self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))
 
                 self.rad3D = np.multiply(self.antPat3D, self.arrFact3D)
+                self.rad3D = np.divide(self.rad3D, np.max(self.rad3D))
             elif(Plots.arrType == "PerpArray"):
 
                 sigma = np.add (2 * pi * Plots.d * cos(Plots.gamma3D), Plots.d_phi)
                 N = Plots.numEle
                 self.arrFact3D = (1 / N) * np.abs(np.divide(sin(N * sigma /2), sin(sigma / 2)))
 
-                self.antPat3D = ((cos(Plots.len*pi*cos(Plots.gamma3D)) - cos(Plots.len*pi))/sin(Plots.gamma3D))
+                self.antPat3D = ((cos(Plots.len*pi*cos(Plots.THETA)) - cos(Plots.len*pi))/sin(Plots.THETA))
                 self.antPat3D = np.divide(self.antPat3D, np.amax(self.antPat3D))
 
                 self.rad3D = np.multiply(self.antPat3D, self.arrFact3D)
+                self.rad3D = np.divide(self.rad3D, np.max(self.rad3D))

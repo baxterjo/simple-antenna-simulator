@@ -212,12 +212,16 @@ class Application(tk.Frame):
             self.dp_sc.configure(state='disabled')
             self.d_sc.configure(state='disabled')
             self.noDip.configure(state='disabled')
+            self.coLin.configure(state='disabled')
+            self.perp.configure(state='disabled')
             self.l_sc.configure(state='disabled')
             self.simTypeMenu.configure(state='disabled')
         else:
             self.dp_sc.configure(state='normal')
             self.d_sc.configure(state='normal')
             self.noDip.configure(state='normal')
+            self.coLin.configure(state='normal')
+            self.perp.configure(state='normal')
             self.l_sc.configure(state='normal')
             self.simTypeMenu.configure(state='normal')
 
