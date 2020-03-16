@@ -1,0 +1,3325 @@
+('C:\\Users\\Jordan '
+ 'Baxter\\Documents\\Code\\ECE484proj3\\build\\GUI\\PYZ-00.pyz',
+ [('os',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\os.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\socket.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\random.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ssl.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('test.support',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\test\\support\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\numbers.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('lib2to3.refactor',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\refactor.py',
+   'PYMODULE'),
+  ('lib2to3.btm_matcher',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\btm_matcher.py',
+   'PYMODULE'),
+  ('lib2to3.btm_utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\btm_utils.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.grammar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\grammar.py',
+   'PYMODULE'),
+  ('lib2to3.pygram',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pygram.py',
+   'PYMODULE'),
+  ('lib2to3.pytree',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pytree.py',
+   'PYMODULE'),
+  ('lib2to3',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\__init__.py',
+   'PYMODULE'),
+  ('lib2to3.patcomp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\patcomp.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.parse',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\parse.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.literals',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\literals.py',
+   'PYMODULE'),
+  ('lib2to3.fixer_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\fixer_util.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.token',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\token.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.tokenize',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\tokenize.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.driver',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\driver.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2.pgen',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\pgen.py',
+   'PYMODULE'),
+  ('lib2to3.pgen2',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lib2to3\\pgen2\\__init__.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('test.support.testresult',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\test\\support\\testresult.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('nntplib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\nntplib.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('smtplib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\hmac.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\glob.py',
+   'PYMODULE'),
+  ('test',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\test\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tty.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\token.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\stat.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\uuid.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources.py31compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\py31compat.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\imp.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('plots',
+   'C:\\Users\\Jordan Baxter\\Documents\\Code\\ECE484proj3\\plots.py',
+   'PYMODULE'),
+  ('matplotlib.cm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\cm.py',
+   'PYMODULE'),
+  ('matplotlib._cm_listed',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_cm_listed.py',
+   'PYMODULE'),
+  ('matplotlib._cm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_cm.py',
+   'PYMODULE'),
+  ('matplotlib.cbook',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\cbook\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.artist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\artist.py',
+   'PYMODULE'),
+  ('matplotlib.patches',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\patches.py',
+   'PYMODULE'),
+  ('matplotlib.patheffects',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\patheffects.py',
+   'PYMODULE'),
+  ('matplotlib.bezier',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\bezier.py',
+   'PYMODULE'),
+  ('matplotlib.lines',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\lines.py',
+   'PYMODULE'),
+  ('matplotlib.markers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\markers.py',
+   'PYMODULE'),
+  ('matplotlib.font_manager',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\font_manager.py',
+   'PYMODULE'),
+  ('matplotlib.fontconfig_pattern',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\fontconfig_pattern.py',
+   'PYMODULE'),
+  ('pyparsing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\pyparsing.py',
+   'PYMODULE'),
+  ('matplotlib.afm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\afm.py',
+   'PYMODULE'),
+  ('matplotlib._mathtext_data',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_mathtext_data.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('matplotlib.text',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\text.py',
+   'PYMODULE'),
+  ('matplotlib.offsetbox',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\offsetbox.py',
+   'PYMODULE'),
+  ('matplotlib.image',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\image.py',
+   'PYMODULE'),
+  ('matplotlib.projections',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\projections\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.projections.polar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\projections\\polar.py',
+   'PYMODULE'),
+  ('matplotlib.spines',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\spines.py',
+   'PYMODULE'),
+  ('matplotlib.ticker',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\ticker.py',
+   'PYMODULE'),
+  ('matplotlib.axis',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\axis.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('matplotlib.units',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\units.py',
+   'PYMODULE'),
+  ('matplotlib.scale',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\scale.py',
+   'PYMODULE'),
+  ('matplotlib.projections.geo',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\projections\\geo.py',
+   'PYMODULE'),
+  ('matplotlib.axes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\axes\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.axes._axes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\axes\\_axes.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.distutils.cpuinfo',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
+   'PYMODULE'),
+  ('numpy.distutils.compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\compat.py',
+   'PYMODULE'),
+  ('numpy.distutils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config_compiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.egg_info',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.py33compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\py33compat.py',
+   'PYMODULE'),
+  ('html.parser',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\_markupbase.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.pep425tags',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\pep425tags.py',
+   'PYMODULE'),
+  ('setuptools.glibc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\glibc.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.py27compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\py27compat.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('site',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.develop',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
+   'PYMODULE'),
+  ('setuptools.command.develop',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\develop.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_clib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.bdist_rpm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command.bdist_rpm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_rpm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools.command.install',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\setuptools\\command\\install.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_headers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('distutils.command.install_headers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_data',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('distutils.command.install_data',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.sdist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_scripts',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_clib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('distutils.command.build_clib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_ext',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('numpy.distutils.system_info',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\system_info.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py_testing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\f2py_testing.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('scipy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\__init__.py',
+   'PYMODULE'),
+  ('scipy.integrate',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\__init__.py',
+   'PYMODULE'),
+  ('scipy.integrate._quad_vec',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_quad_vec.py',
+   'PYMODULE'),
+  ('scipy._lib._util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_util.py',
+   'PYMODULE'),
+  ('scipy.sparse',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\csgraph\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph._validation',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\csgraph\\_validation.py',
+   'PYMODULE'),
+  ('scipy.sparse.csgraph._laplacian',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\csgraph\\_laplacian.py',
+   'PYMODULE'),
+  ('scipy.sparse._matrix_io',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\_matrix_io.py',
+   'PYMODULE'),
+  ('scipy.sparse.extract',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\extract.py',
+   'PYMODULE'),
+  ('scipy.sparse.construct',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\construct.py',
+   'PYMODULE'),
+  ('scipy.sparse.sputils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\sputils.py',
+   'PYMODULE'),
+  ('scipy._lib.six',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\six.py',
+   'PYMODULE'),
+  ('scipy._lib._numpy_compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_numpy_compat.py',
+   'PYMODULE'),
+  ('scipy.sparse.bsr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\bsr.py',
+   'PYMODULE'),
+  ('scipy.sparse.compressed',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\compressed.py',
+   'PYMODULE'),
+  ('scipy.sparse._index',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\_index.py',
+   'PYMODULE'),
+  ('scipy.sparse.data',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\data.py',
+   'PYMODULE'),
+  ('scipy.sparse.dia',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\dia.py',
+   'PYMODULE'),
+  ('scipy.sparse.coo',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\coo.py',
+   'PYMODULE'),
+  ('scipy.sparse.dok',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\dok.py',
+   'PYMODULE'),
+  ('scipy.sparse.lil',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\lil.py',
+   'PYMODULE'),
+  ('scipy.sparse.csc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\csc.py',
+   'PYMODULE'),
+  ('scipy.sparse.csr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\csr.py',
+   'PYMODULE'),
+  ('scipy.sparse.spfuncs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\spfuncs.py',
+   'PYMODULE'),
+  ('scipy.sparse.base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\base.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\__init__.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\base.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.common',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\common.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.lsoda',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\lsoda.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.bdf',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\bdf.py',
+   'PYMODULE'),
+  ('scipy.optimize._numdiff',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_numdiff.py',
+   'PYMODULE'),
+  ('scipy.optimize',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._dual_annealing',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_dual_annealing.py',
+   'PYMODULE'),
+  ('scipy.special',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\__init__.py',
+   'PYMODULE'),
+  ('scipy.special._spherical_bessel',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\_spherical_bessel.py',
+   'PYMODULE'),
+  ('scipy.special.lambertw',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\lambertw.py',
+   'PYMODULE'),
+  ('scipy.special._ellip_harm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\_ellip_harm.py',
+   'PYMODULE'),
+  ('scipy.special.spfun_stats',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\spfun_stats.py',
+   'PYMODULE'),
+  ('scipy.special._logsumexp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\_logsumexp.py',
+   'PYMODULE'),
+  ('scipy.special._basic',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\_basic.py',
+   'PYMODULE'),
+  ('scipy.special.orthogonal',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\orthogonal.py',
+   'PYMODULE'),
+  ('scipy.special.sf_error',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\special\\sf_error.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_shgo.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo_lib.triangulation',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_shgo_lib\\triangulation.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo_lib.sobol_seq',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_shgo_lib\\sobol_seq.py',
+   'PYMODULE'),
+  ('scipy.optimize._shgo_lib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_shgo_lib\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._hessian_update_strategy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_hessian_update_strategy.py',
+   'PYMODULE'),
+  ('scipy.optimize._constraints',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_constraints.py',
+   'PYMODULE'),
+  ('scipy.optimize._differentiable_functions',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_differentiable_functions.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.lsq_linear',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\lsq_linear.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.bvls',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\bvls.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.trf_linear',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\trf_linear.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.common',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\common.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.least_squares',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\least_squares.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.dogbox',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\dogbox.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq.trf',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\trf.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsq',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsq\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._differentialevolution',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_differentialevolution.py',
+   'PYMODULE'),
+  ('scipy.optimize._lsap',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_lsap.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_linprog.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_linprog_util.py',
+   'PYMODULE'),
+  ('scipy.optimize._remove_redundancy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_remove_redundancy.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_rs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_linprog_rs.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_simplex',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_linprog_simplex.py',
+   'PYMODULE'),
+  ('scipy.optimize._linprog_ip',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_linprog_ip.py',
+   'PYMODULE'),
+  ('scipy.optimize._basinhopping',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_basinhopping.py',
+   'PYMODULE'),
+  ('scipy.optimize.nnls',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\nnls.py',
+   'PYMODULE'),
+  ('scipy.optimize.slsqp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\slsqp.py',
+   'PYMODULE'),
+  ('scipy.optimize.cobyla',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\cobyla.py',
+   'PYMODULE'),
+  ('scipy.optimize.tnc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\tnc.py',
+   'PYMODULE'),
+  ('scipy.optimize.lbfgsb',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\lbfgsb.py',
+   'PYMODULE'),
+  ('scipy.optimize.minpack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\minpack.py',
+   'PYMODULE'),
+  ('numpy.dual',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\dual.py',
+   'PYMODULE'),
+  ('scipy.optimize._root_scalar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_root_scalar.py',
+   'PYMODULE'),
+  ('scipy.optimize.zeros',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\zeros.py',
+   'PYMODULE'),
+  ('scipy.optimize._root',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_root.py',
+   'PYMODULE'),
+  ('scipy.optimize._spectral',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_spectral.py',
+   'PYMODULE'),
+  ('scipy.optimize.linesearch',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\linesearch.py',
+   'PYMODULE'),
+  ('scipy.optimize.nonlin',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\nonlin.py',
+   'PYMODULE'),
+  ('scipy.optimize._minimize',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_minimize.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.minimize_trustregion_constr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\minimize_trustregion_constr.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.report',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\report.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.tr_interior_point',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\tr_interior_point.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.canonical_constraint',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\canonical_constraint.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.equality_constrained_sqp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\equality_constrained_sqp.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.qp_subproblem',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\qp_subproblem.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_constr.projections',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\projections.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_exact',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_exact.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_krylov',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_krylov.py',
+   'PYMODULE'),
+  ('scipy.optimize._trlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trlib\\__init__.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_ncg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_ncg.py',
+   'PYMODULE'),
+  ('scipy.optimize._trustregion_dogleg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\_trustregion_dogleg.py',
+   'PYMODULE'),
+  ('scipy.optimize.optimize',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\optimize\\optimize.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._expm_multiply',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\_expm_multiply.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._norm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\_norm.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg._onenormest',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\_onenormest.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.matfuncs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\matfuncs.py',
+   'PYMODULE'),
+  ('scipy.linalg.basic',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\basic.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_svd',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\decomp_svd.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\decomp.py',
+   'PYMODULE'),
+  ('scipy.linalg.misc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\misc.py',
+   'PYMODULE'),
+  ('scipy.linalg.blas',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\blas.py',
+   'PYMODULE'),
+  ('scipy.linalg.lapack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\lapack.py',
+   'PYMODULE'),
+  ('scipy.linalg.flinalg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\flinalg.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.eigen',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\eigen\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.eigen.lobpcg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\eigen\\lobpcg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.eigen.lobpcg.lobpcg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\eigen\\lobpcg\\lobpcg.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.eigen.arpack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\eigen\\arpack\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.eigen.arpack.arpack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\eigen\\arpack\\arpack.py',
+   'PYMODULE'),
+  ('scipy._lib._threadsafety',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_threadsafety.py',
+   'PYMODULE'),
+  ('scipy._lib.decorator',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\decorator.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.interface',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\interface.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.dsolve',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\dsolve\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.dsolve._add_newdocs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\dsolve\\_add_newdocs.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.dsolve.linsolve',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\dsolve\\linsolve.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\__init__.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve._gcrotmk',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\_gcrotmk.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve.utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\utils.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve.lsmr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\lsmr.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve.lsqr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\lsqr.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve.lgmres',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\lgmres.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve.minres',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\minres.py',
+   'PYMODULE'),
+  ('scipy.sparse.linalg.isolve.iterative',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\sparse\\linalg\\isolve\\iterative.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.radau',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\radau.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.rk',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\rk.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.ivp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\ivp.py',
+   'PYMODULE'),
+  ('scipy.integrate._ivp.dop853_coefficients',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ivp\\dop853_coefficients.py',
+   'PYMODULE'),
+  ('scipy.integrate._bvp',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_bvp.py',
+   'PYMODULE'),
+  ('scipy.interpolate',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\__init__.py',
+   'PYMODULE'),
+  ('scipy.interpolate._pade',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\_pade.py',
+   'PYMODULE'),
+  ('scipy.interpolate._bsplines',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\_bsplines.py',
+   'PYMODULE'),
+  ('scipy.interpolate._fitpack_impl',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\_fitpack_impl.py',
+   'PYMODULE'),
+  ('scipy.interpolate.ndgriddata',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\ndgriddata.py',
+   'PYMODULE'),
+  ('scipy.interpolate._cubic',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\_cubic.py',
+   'PYMODULE'),
+  ('scipy.interpolate.polyint',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\polyint.py',
+   'PYMODULE'),
+  ('scipy.interpolate.rbf',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\rbf.py',
+   'PYMODULE'),
+  ('scipy.spatial.distance',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\distance.py',
+   'PYMODULE'),
+  ('scipy.interpolate.fitpack2',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\fitpack2.py',
+   'PYMODULE'),
+  ('scipy.interpolate.interpolate',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\interpolate.py',
+   'PYMODULE'),
+  ('scipy.interpolate.fitpack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\interpolate\\fitpack.py',
+   'PYMODULE'),
+  ('scipy.integrate._ode',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\_ode.py',
+   'PYMODULE'),
+  ('scipy.integrate.quadpack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\quadpack.py',
+   'PYMODULE'),
+  ('scipy.integrate.odepack',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\odepack.py',
+   'PYMODULE'),
+  ('scipy.integrate.quadrature',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\integrate\\quadrature.py',
+   'PYMODULE'),
+  ('scipy.spatial',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\__init__.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\transform\\__init__.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rotation_spline',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\transform\\_rotation_spline.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform.rotation',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\transform\\rotation.py',
+   'PYMODULE'),
+  ('scipy.spatial.transform._rotation_groups',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\transform\\_rotation_groups.py',
+   'PYMODULE'),
+  ('scipy.constants',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\constants\\__init__.py',
+   'PYMODULE'),
+  ('scipy.constants.constants',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\constants\\constants.py',
+   'PYMODULE'),
+  ('scipy.constants.codata',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\constants\\codata.py',
+   'PYMODULE'),
+  ('scipy.spatial._procrustes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\_procrustes.py',
+   'PYMODULE'),
+  ('scipy.spatial._plotutils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\_plotutils.py',
+   'PYMODULE'),
+  ('scipy.spatial._spherical_voronoi',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\_spherical_voronoi.py',
+   'PYMODULE'),
+  ('scipy.spatial.kdtree',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\spatial\\kdtree.py',
+   'PYMODULE'),
+  ('scipy.linalg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('scipy.linalg._sketches',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_sketches.py',
+   'PYMODULE'),
+  ('scipy.linalg._procrustes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_procrustes.py',
+   'PYMODULE'),
+  ('scipy.linalg._solvers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_solvers.py',
+   'PYMODULE'),
+  ('scipy.linalg.special_matrices',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\special_matrices.py',
+   'PYMODULE'),
+  ('scipy.linalg.matfuncs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\matfuncs.py',
+   'PYMODULE'),
+  ('scipy.linalg._matfuncs_inv_ssq',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_matfuncs_inv_ssq.py',
+   'PYMODULE'),
+  ('scipy.linalg._matfuncs_sqrtm',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_matfuncs_sqrtm.py',
+   'PYMODULE'),
+  ('scipy.linalg._expm_frechet',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_expm_frechet.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_polar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_decomp_polar.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_schur',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\decomp_schur.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_qz',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_decomp_qz.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_qr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\decomp_qr.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_cholesky',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\decomp_cholesky.py',
+   'PYMODULE'),
+  ('scipy.linalg._decomp_ldl',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\_decomp_ldl.py',
+   'PYMODULE'),
+  ('scipy.linalg.decomp_lu',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\decomp_lu.py',
+   'PYMODULE'),
+  ('scipy.linalg.linalg_version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\linalg\\linalg_version.py',
+   'PYMODULE'),
+  ('scipy.fft',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.helper',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_pocketfft\\helper.py',
+   'PYMODULE'),
+  ('scipy.fft._backend',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_backend.py',
+   'PYMODULE'),
+  ('scipy._lib.uarray',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\uarray.py',
+   'PYMODULE'),
+  ('scipy._lib._uarray',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_uarray\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib._uarray._backend',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_uarray\\_backend.py',
+   'PYMODULE'),
+  ('scipy._lib._pep440',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_pep440.py',
+   'PYMODULE'),
+  ('scipy.fft._helper',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_pocketfft\\__init__.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.realtransforms',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_pocketfft\\realtransforms.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.basic',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_pocketfft\\basic.py',
+   'PYMODULE'),
+  ('scipy.fft._realtransforms',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_realtransforms.py',
+   'PYMODULE'),
+  ('scipy.fft._basic',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\fft\\_basic.py',
+   'PYMODULE'),
+  ('scipy._lib._testutils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_testutils.py',
+   'PYMODULE'),
+  ('scipy._lib._ccallback',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_ccallback.py',
+   'PYMODULE'),
+  ('scipy._lib._version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\_version.py',
+   'PYMODULE'),
+  ('scipy.version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\version.py',
+   'PYMODULE'),
+  ('scipy.__config__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\__config__.py',
+   'PYMODULE'),
+  ('scipy._distributor_init',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('scipy._lib.deprecation',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\scipy\\_lib\\deprecation.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_src',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
+   'PYMODULE'),
+  ('numpy.distutils.conv_template',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.from_template',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\from_template.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('fileinput',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\fileinput.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_py',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('distutils.command.build_py',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('distutils.command.build',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.autodist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
+   'PYMODULE'),
+  ('numpy.distutils.mingw32ccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.unixccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('distutils.cygwinccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('distutils.command.config',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\cgi.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('numpy.distutils.core',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\core.py',
+   'PYMODULE'),
+  ('numpy.distutils.numpy_distribution',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
+   'PYMODULE'),
+  ('numpy.distutils.extension',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler.environment',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
+   'PYMODULE'),
+  ('numpy.distutils.exec_command',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
+   'PYMODULE'),
+  ('numpy.distutils.misc_util',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
+   'PYMODULE'),
+  ('curses',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.distutils.__config__',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\__config__.py',
+   'PYMODULE'),
+  ('numpy.distutils.npy_pkg_config',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
+   'PYMODULE'),
+  ('numpy.distutils.unixccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils._shell_utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
+   'PYMODULE'),
+  ('pipes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\pipes.py',
+   'PYMODULE'),
+  ('numpy.distutils.lib2def',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
+   'PYMODULE'),
+  ('numpy.distutils.log',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\distutils\\log.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.financial',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\financial.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('matplotlib.container',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\container.py',
+   'PYMODULE'),
+  ('matplotlib.axes._secondary_axes',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\axes\\_secondary_axes.py',
+   'PYMODULE'),
+  ('matplotlib.axes._base',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\axes\\_base.py',
+   'PYMODULE'),
+  ('matplotlib.rcsetup',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\rcsetup.py',
+   'PYMODULE'),
+  ('cycler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\cycler.py',
+   'PYMODULE'),
+  ('matplotlib.tri',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.tri.triplot',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\triplot.py',
+   'PYMODULE'),
+  ('matplotlib.tri.tripcolor',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\tripcolor.py',
+   'PYMODULE'),
+  ('matplotlib.tri.trirefine',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\trirefine.py',
+   'PYMODULE'),
+  ('matplotlib.tri.triinterpolate',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\triinterpolate.py',
+   'PYMODULE'),
+  ('matplotlib.tri.trifinder',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\trifinder.py',
+   'PYMODULE'),
+  ('matplotlib.tri.tritools',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\tritools.py',
+   'PYMODULE'),
+  ('matplotlib.tri.tricontour',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\tricontour.py',
+   'PYMODULE'),
+  ('matplotlib.tri.triangulation',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tri\\triangulation.py',
+   'PYMODULE'),
+  ('matplotlib.table',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\table.py',
+   'PYMODULE'),
+  ('matplotlib.streamplot',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\streamplot.py',
+   'PYMODULE'),
+  ('matplotlib.stackplot',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\stackplot.py',
+   'PYMODULE'),
+  ('matplotlib.quiver',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\quiver.py',
+   'PYMODULE'),
+  ('matplotlib.mlab',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\mlab.py',
+   'PYMODULE'),
+  ('matplotlib.legend',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\legend.py',
+   'PYMODULE'),
+  ('matplotlib.legend_handler',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\legend_handler.py',
+   'PYMODULE'),
+  ('matplotlib.dates',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\dates.py',
+   'PYMODULE'),
+  ('matplotlib.contour',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\contour.py',
+   'PYMODULE'),
+  ('matplotlib.blocking_input',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\blocking_input.py',
+   'PYMODULE'),
+  ('matplotlib.texmanager',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\texmanager.py',
+   'PYMODULE'),
+  ('matplotlib.dviread',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\dviread.py',
+   'PYMODULE'),
+  ('matplotlib.mathtext',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\mathtext.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_agg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_agg.py',
+   'PYMODULE'),
+  ('matplotlib.backends',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_template',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_template.py',
+   'PYMODULE'),
+  ('matplotlib._pylab_helpers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_pylab_helpers.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_svg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_svg.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_mixed',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_mixed.py',
+   'PYMODULE'),
+  ('matplotlib.tight_bbox',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tight_bbox.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_ps',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_ps.py',
+   'PYMODULE'),
+  ('matplotlib._text_layout',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_text_layout.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_pgf',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_pgf.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_pdf',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_pdf.py',
+   'PYMODULE'),
+  ('matplotlib.type1font',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\type1font.py',
+   'PYMODULE'),
+  ('matplotlib.backends._backend_pdf_ps',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\_backend_pdf_ps.py',
+   'PYMODULE'),
+  ('matplotlib.backends._backend_tk',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\_backend_tk.py',
+   'PYMODULE'),
+  ('matplotlib.widgets',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\widgets.py',
+   'PYMODULE'),
+  ('matplotlib.backend_managers',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backend_managers.py',
+   'PYMODULE'),
+  ('matplotlib.backend_tools',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backend_tools.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.filedialog',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\dialog.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_webagg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_webagg.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_webagg_core',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_webagg_core.py',
+   'PYMODULE'),
+  ('matplotlib.collections',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\collections.py',
+   'PYMODULE'),
+  ('matplotlib.category',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\category.py',
+   'PYMODULE'),
+  ('matplotlib.axes._subplots',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\axes\\_subplots.py',
+   'PYMODULE'),
+  ('matplotlib._layoutbox',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_layoutbox.py',
+   'PYMODULE'),
+  ('matplotlib.gridspec',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\gridspec.py',
+   'PYMODULE'),
+  ('matplotlib.tight_layout',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\tight_layout.py',
+   'PYMODULE'),
+  ('matplotlib.textpath',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\textpath.py',
+   'PYMODULE'),
+  ('matplotlib.transforms',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\transforms.py',
+   'PYMODULE'),
+  ('matplotlib.path',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\path.py',
+   'PYMODULE'),
+  ('matplotlib.hatch',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\hatch.py',
+   'PYMODULE'),
+  ('matplotlib.docstring',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\docstring.py',
+   'PYMODULE'),
+  ('matplotlib.cbook.deprecation',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\cbook\\deprecation.py',
+   'PYMODULE'),
+  ('matplotlib.colors',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\colors.py',
+   'PYMODULE'),
+  ('matplotlib._color_data',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_color_data.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\mpl_toolkits\\mplot3d\\__init__.py',
+   'PYMODULE'),
+  ('mpl_toolkits', '-', 'PYMODULE'),
+  ('mpl_toolkits.mplot3d.axes3d',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axes3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.axis3d',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\mpl_toolkits\\mplot3d\\axis3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.art3d',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\mpl_toolkits\\mplot3d\\art3d.py',
+   'PYMODULE'),
+  ('mpl_toolkits.mplot3d.proj3d',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\mpl_toolkits\\mplot3d\\proj3d.py',
+   'PYMODULE'),
+  ('antennas',
+   'C:\\Users\\Jordan Baxter\\Documents\\Code\\ECE484proj3\\antennas.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('matplotlib.pyplot',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\pyplot.py',
+   'PYMODULE'),
+  ('matplotlib.style',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\style\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib.style.core',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\style\\core.py',
+   'PYMODULE'),
+  ('matplotlib.colorbar',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\colorbar.py',
+   'PYMODULE'),
+  ('matplotlib._constrained_layout',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_constrained_layout.py',
+   'PYMODULE'),
+  ('matplotlib.figure',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\figure.py',
+   'PYMODULE'),
+  ('matplotlib.backend_bases',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backend_bases.py',
+   'PYMODULE'),
+  ('matplotlib.backends.backend_tkagg',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\backends\\backend_tkagg.py',
+   'PYMODULE'),
+  ('matplotlib',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\__init__.py',
+   'PYMODULE'),
+  ('matplotlib._version',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\matplotlib\\_version.py',
+   'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\jordan '
+   'baxter\\appdata\\local\\programs\\python\\python38-32\\lib\\tkinter\\constants.py',
+   'PYMODULE')])
